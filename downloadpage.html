@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="./v9icon.png">
+    <title>Downloads and info</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css">
+        body {
+            overflow-x: hidden;
+            height: 100%;
+            font-family: "arial";
+            line-height: 1.5em;
+        }
+
+        nav {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            width: min(40%, 400px);
+            background: #fff;
+            margin-left: 10px;
+        }
+
+        main {
+            padding: 10px;
+            margin-left: 10px;
+            margin-top: 30px;
+            position: absolute;
+            top: 0;
+            left: min(40%, 400px);
+            right: 0;
+            bottom: 0;
+            background: #fff;
+            overflow-y: hidden;
+        }
+
+        p {
+            color: #4b4b4b;
+        }
+
+        .image-style {
+            /*this is image formating*/
+            width: min(50%, 300px)
+                /*border: 1px soid rgb(0, 0, 0);*/
+        }
+
+        .pstyle {
+            max-width: 600px;
+            color: rgb(46, 46, 46);
+            word-wrap: break-word;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            word-wrap: break-word;
+        }
+
+        th,
+        td {
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        td:first-child {
+            font-weight: bold;
+        }
+
+        td:nth-child(2) {
+            text-align: left;
+        }
+
+        tr:nth-child(even) {
+            background-color: #d0d0d0;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="nav">
+        <h1>Downloads & info</h1>
+        <div>
+            <p>Integration and SLM shield solid models are available below. Get the shield printed in SS for $7 from JLC
+                or set up a group buy elsewhere.
+            </p>
+            <b>v9.2</b>
+            <a href="v9_2_asm.stp" download target="_blank" rel="noopener noreferrer">.step</a> <a href="v9_2_asm.stl"
+                target="_blank" rel="noopener noreferrer">/.stl</a> <a href="v9_2_asm.x_t" target="_blank"
+                rel="noopener noreferrer">/.x_t</a>
+            <br>
+            <b>shield</b>
+            <a href="v9_2_asm.stp" target="_blank" rel="noopener noreferrer">.step</a> <a href="v9_2_asm.stl"
+                target="_blank" rel="noopener noreferrer">/.stl</a> <a href="v9_2_asm.x_t" target="_blank"
+                rel="noopener noreferrer">/.x_t</a>
+        </div>
+        <br>
+        <h3>Watercooling</h3>
+        <div>
+            <p>
+                The hotend barbs are compatible with 3mm & 1/8" tubing. I recommend thick wall buna nitrile tubing.
+            </p>
+            <p>
+                I also procured some very nice quick connect fittings. You can have a set included for $30 (two <a
+                        href="https://www.mcmaster.com/5012K54/" target="_blank" rel="noopener noreferrer">plugs</a>
+                and two <a href="https://www.mcmaster.com/5012K34/" target="_blank"
+                    rel="noopener noreferrer">sockets</a>). They make watercooling maintenance much less painful.
+            </p>
+            
+            <h3  id="why">Why Steel</h3>
+            <div>
+                <p>
+                    <a href="./v9.1.html" target="_blank" rel="noopener noreferrer">Previously</a>, the filament path in the hot-side of v9 was a tungsten carbide tube, which caused some
+                    problems.
+                    <br><br>
+                    Pressures within a hotend can be as high as 80 MPA (11.6 Kpsi), causing plastic leakage through minute gaps.
+                    Typically, sealing surfaces deform elastically during the tightening of the heatbreak and nozzle,
+                    but as you increase the hardness of a material, the force required to deform the surface increases.
+                    In the case of tungsten carbide, the deformation force required becomes prohibitively high,
+                    risking material fracture before achieving a proper seal. To get around this previously, the mating surfaces were lapped until they sealed on their own.
+                    <br><br>
+                    This was way too much work.
+                    <br><br>
+                    The new design introduces an innovative solution that allows for the local elastic deformation
+                    of sealing surfaces while still being significantly harder than the fibrous fillers and in fact
+                    is as hard as tungsten carbide.
+                    It will remain a secret for now, but know that it is not CVD nonsense but a surface with real
+                    thickness.
+                    <br><br>
+                    The bulk material being steel facilitates the solution, while additionally enhancing high-temperature strength and eliminating hot tightening requirements for copper, brass and steel nozzles. 
+                    <br><br>
+                    With a thermal conductivity of approximately 50 W/mK, Model Predictive Control (MPC) is recommended.
+                    To prevent material discoloration, limit heater output to 80W during initial heat-up.
+                    <br><br>
+                    <p class="pstyle">Purchasing</p>
+                    <a href="mailto:v9hotend@gmail.com">v9hotend@gmail.com</a>
+                </p>
+            </div>
+        </div>
+    </nav>
+    <main>
+        <img src="asm.gif" alt="hotend gif" class="image-style">
+        <br><br><br><br><br>
+    </main>
+
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="icon" href="./v9stamp.png">
+    <title>downloads and info</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <style type="text/css"> body {
+        overflow-x: hidden;
+        height: 100%;
+        font-family: "arial";
+        line-height: 1.5em;
+    }
+
+    nav {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        width: min(50%, 600px);
+        background: #fff;
+        margin-left: 10px;
+
+
+    }
+
+    main {
+        padding: 10px;
+        margin-left: 10px;
+        margin-top: 30px;
+        position: absolute;
+        top: 0;
+        left: min(50%, 600px);
+        right: 0;
+        bottom: 0;
+        background: #fff;
+        overflow-y:auto;
+    }
+
+    p {
+        color: #4b4b4b;
+    }
+
+    .image-style {
+        /*this is image formating*/
+        width: min(50%, 300px)
+        /*border: 1px soid rgb(0, 0, 0);*/
+    }
+
+    .pstyle {
+        max-width: 600px;
+        color: rgb(46, 46, 46);
+        word-wrap: break-word;
+
+    }
+
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        word-wrap: break-word;
+    }
+
+    th,
+    td {
+        text-align: left;
+    }
+
+    th {
+        background-color: #f2f2f2;
+    }
+
+    td:first-child {
+        font-weight: bold;
+    }
+
+    td:nth-child(2) {
+        text-align: left;
+    }
+
+    tr:nth-child(even) {
+        background-color: #d0d0d0;
+    }
+
+    </style>
+</head>
+<body>
+    <nav id="nav">
+        <br><br>
+        <h1>Why steel</h1>
+        <div>
+            <p>
+                Previously the fillament path in the hot-side of v9 was a tungsten carbide tube, this caused some problems.
+                <br><br>
+                Pressures within a hotend can be as high as 80 MPA (11.6 Kpsi), thus even the smallest gaps plastic will leak from.
+                Typically the sealing surfaces of a hotend are elastically deformed during the tightening of the heatbreak and nozzle, 
+                but as you increase the hardness of a material, the force required to deform the surface increases.
+                In the case of tungsten carbide the deformation force can be so high that the material
+                would fracture before sealing.
+                To get around this previously, the mating surfaces were lapped until they sealed on their own.
+                <br><br> 
+                this was way too much work.
+                <br><br>
+                I am using a different strategy now, a method that still allows for the local elastic deformation
+                of sealing surfaces but still is signifigantly harder than the fiberous fillers and in fact
+                is as hard as tungsten carbide.
+                It will remain a secret for now, but know that it is not CVD nonsense but a surface with real thickness.
+                <br><br>
+                Aditoinally with a hotend made of steel hot tightening is no longer required or advised for (x materials) nozzles.
+                <br><br>
+                The thermal conductivity of this grade of steel is approximately 50 W/mK. It is recommended to use MPC (model predictive control).
+                To prevent discoloration limit the heater output to 80w during the initial heatup.
+            </p>
+        <b>v9.2 </b>
+        <a href="v9_2_asm.stp" download target="_blank" rel="noopener noreferrer">.step</a> <a href="v9_2_asm.stp"target="_blank" rel="noopener noreferrer">/.stl </a> <a href="v9_2_asm.stp"target="_blank" rel="noopener noreferrer">/.x_t </a>
+        <br>
+        <b>shield </b>
+        <a href="v9_2_asm.stp" target="_blank" rel="noopener noreferrer">.step </a> <a href="v9_2_asm.stp"target="_blank" rel="noopener noreferrer">/.stl </a> <a href="v9_2_asm.stp"target="_blank" rel="noopener noreferrer">/.x_t </a>
+        </div>
+        <br>
+        <h3>Watercooling</h3>
+        <div>
+            <p>
+                The hotend barbs are compatable with 3mm & 1/8" tubing. I recommend thick wall buna nitrile tubing. 
+            </p>
+            <p>
+                I also procured some very nice quick connect fittings, You can have a set included for $30 (two <b><a href="https://www.mcmaster.com/5012K54/"target="_blank" rel="noopener noreferrer">plugs</a></b> and two <a href="https://www.mcmaster.com/5012K34/"target="_blank" rel="noopener noreferrer"><b>sockets</b></a>). They make watercooling maintenance much less painful. 
+            </p>
+
+            <p class="pstyle" style="position: absolute;bottom: 30px;">purchasing & questions </p>
+            <a href="mailto:v9hotend@gmail.com" style="position: absolute; bottom: 20px;">v9hotend@gmail.com</a>
+            <br>
+        </div>
+
+    </nav>
+    <main>
+        <br>
+        <br><br><br><br><br>
+    </main>
+</body>
+
+</html>
